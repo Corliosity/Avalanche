@@ -1,0 +1,1 @@
+function shop(e){var t=Ti.UI.createWindow({title:"Shop Avalanche",backgroundColor:"#eaeaea",layout:"vertical",barColor:"#13386c",backButtonTitle:"Home"}),n=Ti.UI.createWebView({url:"http://shop.nhl.com/category/index.jsp?categoryId=3176431&cp=3194476.3169591"});return t.add(n),t}module.exports=shop

@@ -1,0 +1,12 @@
+{
+	"target": "dist-adhoc",
+	"deployType": "production",
+	"deviceFamily": "iphone",
+	"distributionName": "Andrew Corliss",
+	"iosSdkPath": "/Library/Application Support/Titanium/mobilesdk/osx/3.0.0.GA/iphone",
+	"appGuid": "3cdb935c-8e92-46df-86db-fc1778c98b1d",
+	"tiCoreHash": "6b039db50f01934ab31311c911af38db",
+	"modulesHash": "e00673515b0d739df15caa430d5a0a11",
+	"gitHash": "a5894b3",
+	"outputDir": "/Users/andrewcorliss/Desktop/Andy_App_Tests/Avs_v0.76"
+}

@@ -1,0 +1,9 @@
+// this is a generated file - DO NOT EDIT
+
+COM_THINKORANGE_GOOGLE_ANALYTICS_OTHER_LDFLAGS=$(inherited) -framework CFNetwork -framework SystemConfiguration -framework CoreData
+COM_0X82_TWITTER_OTHER_LDFLAGS=$(inherited) -weak_framework Twitter -weak_framework Accounts
+COM_0X82_TWITTER_OTHER_LDFLAGS_sdk_iphoneos6__=$(inherited) -weak_framework Social
+COM_0X82_TWITTER_OTHER_LDFLAGS_sdk_iphonesimulator6__=$(inherited) -weak_framework Social
+OTHER_LDFLAGS=$(inherited) $(COM_THINKORANGE_GOOGLE_ANALYTICS_OTHER_LDFLAGS) $(COM_0X82_TWITTER_OTHER_LDFLAGS) 
+OTHER_LDFLAGS[sdk=iphoneos6*]=$(inherited) $(COM_0X82_TWITTER_OTHER_LDFLAGS_sdk_iphoneos6__) 
+OTHER_LDFLAGS[sdk=iphonesimulator6*]=$(inherited) $(COM_0X82_TWITTER_OTHER_LDFLAGS_sdk_iphonesimulator6__) 

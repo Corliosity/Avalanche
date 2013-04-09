@@ -1,0 +1,1 @@
+function nhlNews(e){var t=require("services/NHLrss"),n=Ti.UI.createWindow({title:"Around the League",backgroundColor:"#eaeaea",backButtonTitle:"Home"});return n}module.exports=nhlNews
